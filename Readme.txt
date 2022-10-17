@@ -1,4 +1,4 @@
-Thanks for downloading this template!
+Using a template for my website on Github.
 
 Template Name: Lonely
 Template URL: https://bootstrapmade.com/free-html-bootstrap-template-lonely/
