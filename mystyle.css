@@ -1,0 +1,44 @@
+body {
+    background-color: lightblue;
+  }
+  section,article, aside
+  {color:white}
+  h1,h2,p  {
+    color: white;
+    margin-center: 20px;
+  }
+  body{ 
+    background-image: url( "istockphoto-1162998852-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h1,p  {
+    border: 5px solid red;
+  }
+  ul {
+    list-style-type: none;
+        overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+  li {
+    border-right: 1px solid #bbb;
+  }
