@@ -40,15 +40,11 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" aria-label="Cyndi with a cheeky smirk and glasses." class="d-flex flex-column align-items-center justify-content-center">
-    <h1><a href="#" data-toggle="tooltip" title="Get to know me!">Hi, I'm Cyndi Vermilyea!</a></h1>
+    <h1>Hi, I'm Cyndi Vermilyea!</h1>
     <h2>I am a MLIS Student</h2>
     <a href="#about" class="btn-get-started scrollto"><i class="bi bi-chevron-double-down"></i></a>
   </section><!-- End Hero -->
-  <script>
-    $(document).ready(function(){
-      $('[data-toggle="tooltip"]').tooltip();   
-    });
-    </script>
+  
 
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
@@ -89,7 +85,12 @@
           <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
             <div class="content d-flex flex-column justify-content-center">
               <!-- I changed this heading title -->
-              <h3>About Me</h3>
+              <h3><a href="#" data-toggle="tooltip" title="Get to know me!">About Me</a></h3>
+              <script>
+                $(document).ready(function(){
+                  $('[data-toggle="tooltip"]').tooltip();   
+                });
+                </script>
               <!-- I added information in the about me section -->
               <!--changed all the about me stats and updated the data counters-->
               <p>
